@@ -1,0 +1,42 @@
+<!DOCTYPE html>   
+<html>   
+<head>  
+<meta name="viewport" content="width=device-width, initial-scale=1">  
+<title> Login Page </title>     
+<link rel="stylesheet" href="/css/bootstrap.min.css">
+<link rel="stylesheet" href="/css/dropdowns.css">
+<link rel="stylesheet" href="/css/index.css">
+</head>    
+<body>    
+    <h1 class="title"> Files </h1>
+    <a class="exit" href="/logout">Exit</a> 
+    <div class="main">
+        <div class="file-list">
+            <div class="dropdown-menu-dark border-0 pt-0 mx-0 rounded-3 shadow" style="width: 280px;">
+                <ul class="list-unstyled mb-0">
+                    {{#if listFile.length}}
+                        {{#each listFile}}
+                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="{{../path}}/{{name}}">
+                        <span class="d-inline-block bg-success rounded-circle" style="width: .5em; height: .5em;"></span>
+                        {{name}}{{#if isDirectory}}/{{/if}}
+                    </a></li>
+                    {{/each}}
+                    {{^}}
+                    <li class="dropdown-item d-flex align-items-center gap-2 py-2">Empty</li>
+                    {{/if}}
+                </ul>
+              </div>
+        </div>
+        <div class="editor">
+            <form method="POST">
+                <div class="form-group mt-4">
+                    <textarea class="form-control" id="message" name="body" rows="12" {{#if body}}{{^}}disabled="true"{{/if}}>{{{body}}}</textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-success">Save</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>     
+</html>  
