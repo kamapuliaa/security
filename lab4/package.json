@@ -1,0 +1,19 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "npx prettier -w ./**/**.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Rozghon",
+  "license": "ISC",
+  "dependencies": {
+    "bignumber.js": "^9.0.1",
+    "node-forge": "^0.10.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.4.1"
+  }
+}
