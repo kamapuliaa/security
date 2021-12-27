@@ -1,0 +1,4 @@
+{"cdate":"2021-12-27T21:06:26.108Z","uid":"123123","originalUrl":"/login","ip":"::ffff:192.168.1.133","sessionID":"rLJRIWNULTfy7A11imVhCrIyWanT06b6","message":"user not found"}
+{"cdate":"2021-12-27T21:06:30.241Z","uid":"kamila","originalUrl":"/login?error=wrong_user1","ip":"::ffff:192.168.1.133","sessionID":"rLJRIWNULTfy7A11imVhCrIyWanT06b6","message":"wrond password user"}
+{"cdate":"2021-12-27T21:22:21.123Z","uid":"kamila","originalUrl":"/file/user.json","ip":"::ffff:192.168.1.133","sessionID":"_KvqbFOrn8lDmG5pBbneu7sZJdYt4CkJ","message":"wrond password user"}
+{"cdate":"2021-12-27T21:23:42.430Z","uid":"kamila","originalUrl":"/file/user.json","ip":"::ffff:192.168.1.133","sessionID":"RzF7vXSxm9N73cqJm3_uMO1VxrhIaNlG","message":"file protected"}

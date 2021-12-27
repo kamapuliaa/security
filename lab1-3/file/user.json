@@ -1,0 +1,17 @@
+[
+  {
+    "login": "kamila",
+    "hash": "$2a$12$RzL5WzrIVefW3i31n1gAk.el.9fX1ocagJAflHCJshafSWwucVNR6",
+    "admin": false,
+    "ask": {
+      "test1": "$2b$10$QoAnTAyqVK47LfQnNxLjCeK4Ci4sL1yolmEslwhUf0Ug43lWV.kD6",
+      "test2": "$2b$10$8Ro4iz3cX/y2y5Lj0igkZ.4QH.9NOrqrTiIRVa7uxqBVG.DBOsJZ."
+    }
+  },
+  {
+    "login": "test1",
+    "password": "test1",
+    "admin": false,
+    "hash": "$2b$10$DEqltSNZL1doOjLxxBcc0OlQ8K5ejBtUNnUwQfVxxagLuVypd8sPi"
+  }
+]

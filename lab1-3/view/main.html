@@ -16,7 +16,7 @@
                 <ul class="list-unstyled mb-0">
                     {{#if listFile.length}}
                         {{#each listFile}}
-                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="{{../path}}/{{name}}">
+                    <li><a class="dropdown-item d-flex align-items-center gap-2 py-2" href="{{fullPath}}">
                         <span class="d-inline-block bg-success rounded-circle" style="width: .5em; height: .5em;"></span>
                         {{name}}{{#if isDirectory}}/{{/if}}
                     </a></li>

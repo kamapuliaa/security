@@ -1,0 +1,10 @@
+[
+  {
+    "filename": "user.json",
+    "allow": "admin"
+  },
+  {
+    "filename": "accessFile.json",
+    "allow": "admin"
+  }
+]
